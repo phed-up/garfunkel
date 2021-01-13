@@ -56,6 +56,7 @@ function onBtnPressed()
     {
         isOn = true;
         showColor();
+        var audioYellow = new Audio("sounds/sound1.mp3").play();  
         levelTitle.text("--");
         
     }
