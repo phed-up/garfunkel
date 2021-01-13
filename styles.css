@@ -1,0 +1,108 @@
+div{
+
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    background-color: #90aac5;
+  }
+
+button {
+
+  font-size: 2rem;
+  border-radius: 20%;
+  margin: 50px 10px 10px 10px;
+  padding: 10px;
+  color: #3C3A3A;
+  
+  
+
+}
+
+input {
+
+  font-size: 2rem;
+  border-radius: 20%;
+  margin: 50px 10px 10px 10px;
+  padding: 10px;
+  color: #3C3A3A;
+
+}
+  
+  #level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin:  5%;
+    color: #FEF2BF;
+  }
+  
+  .container {
+    display: block;
+    width: 80%;
+    margin: auto;
+  
+  }
+  
+  .row {
+    padding: 0%;
+  }
+  
+  .btn {
+    margin: 1px;
+    display: inline-block;
+    height: 13rem;
+    width: 13rem;
+    border: 5px solid #3C3A3A;
+    /* border-radius: 40%; */
+    /* border-radius: 50% 15px 15px 10px; */
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+    
+  }
+  
+  .red {
+    background-color: #E76E73;
+    border-radius: 10% 100% 10% 10%;
+  }
+  
+  .green {
+    background-color: #72E96F;
+    border-radius: 100% 10% 10% 10%;
+  }
+  
+  .blue {
+    background-color: #2596be;
+    border-radius: 10% 10% 100% 10%;
+  }
+  
+  .yellow {
+    background-color: yellow;
+    border-radius: 10% 10% 10% 100%;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  
+  #strictLbl {
+    color: white;
+  }
+
+  .gameOff {
+   
+    background-color: grey;
+  }
+
+  .footer {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    padding: 10%;
+    color: #3C3A3A;
+  }
+
